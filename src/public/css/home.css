@@ -38,3 +38,39 @@ header img {
 header img:hover {
   cursor: pointer;
 }
+
+section {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+#banner {
+  width: 800px;
+  height: 300px;
+}
+
+#areaCirculo {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  margin-top: 125px;
+  width: 780px;
+  height: 40px;
+}
+
+.circulo {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background-color: rgba(141, 141, 141, 0.62);
+  display: flex;
+  align-items: center;
+}
+
+#bannerImg {
+  width: 800px;
+  height: 300px;
+}
